@@ -1,0 +1,122 @@
+/*added a little CSS for fun & practice*/
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(rgb(155, 235, 255), white);
+}
+/*Centering text elements on the page*/
+p,
+li,
+h1,
+.learn-more {
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  /*border: 3px solid green;*/
+}
+.learn-more {
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+/*Color*/
+h2 {
+  color: rgb(0, 119, 255);
+}
+
+.answer {
+  color: crimson;
+  text-decoration: underline;
+}
+/*Centering images*/
+.MA {
+  border-radius: 5rem;
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.answer-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
+
+/*Fonts - Noto Serif, Quicksand */
+h1 {
+  font-family: "Noto Serif", serif;
+  font-style: italic;
+  color: #000000;
+  text-shadow: #949494 1.5px 1.5px 0;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Noto Serif", serif;
+}
+
+li,
+.answer {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+}
+
+/*Buttons*/
+
+.buttonClass {
+  text-align: center;
+  display: block;
+  margin: auto;
+  font-size: 15px;
+  font-family: Quicksand;
+  width: 200px;
+  height: 50px;
+  border-width: 1px;
+  margin-bottom: 50px;
+  padding: 10px;
+  color: #fff;
+  border-color: #1e5a96;
+  font-weight: bold;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+  text-shadow: inset 0px 1px 0px #528ecc;
+  background: linear-gradient(#79bbff, #378de5);
+}
+
+.buttonClass:hover {
+  background: linear-gradient(#378de5, #79bbff);
+}
+
+.button-Quiz {
+  text-align: center;
+  display: block;
+  margin: auto;
+  font-size: 15px;
+  font-family: Quicksand;
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  border-width: 1px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  color: #fff;
+  border-color: #337bc4;
+  font-weight: bold;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 3px 4px 0px 0px #1564ad;
+  text-shadow: 0px 1px 0px #528ecc;
+  background: linear-gradient(#79bbff, #378de5);
+}
+
+.button-Quiz:hover {
+  background: linear-gradient(#378de5, #79bbff);
+}
